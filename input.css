@@ -19,12 +19,6 @@
     background: rgb(4, 27, 63);
 }
 
-nav {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 #features {
     background-color: #fbfafc;
