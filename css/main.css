@@ -903,6 +903,13 @@ video {
   background: rgb(4, 27, 63);
 }
 
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 body {
   background-image: url('../img/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
