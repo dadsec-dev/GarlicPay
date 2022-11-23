@@ -608,6 +608,10 @@ video {
   display: none;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -630,6 +634,10 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .flex-col {
@@ -743,9 +751,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-brightRedSupLight {
+.bg-veryLightBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-layer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 203 168 / var(--tw-bg-opacity));
 }
 
 .bg-veryLightGray {
@@ -847,9 +860,9 @@ video {
   color: hsl(233 12% 13% / var(--tw-text-opacity));
 }
 
-.text-brightRedLight {
+.text-veryLightBlue {
   --tw-text-opacity: 1;
-  color: hsl(12 88% 69% / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -860,11 +873,6 @@ video {
 .text-darkGreyishBlue {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
-}
-
-.text-brightRed {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -887,12 +895,12 @@ video {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(12, 88%, 59%);
+  background: rgb(59 130 246);
   border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(12, 88%, 59% / 1);
+  background: rgb(4, 27, 63);
 }
 
 body {
@@ -992,19 +1000,24 @@ body {
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
 }
 
+.hover\:bg-veryLightBlue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.hover\:text-veryLightBlue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .hover\:text-darkGreyishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
-}
-
-.hover\:text-brightRed:hover {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {

@@ -11,12 +11,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: hsl(12, 88%, 59%);
+    background: rgb(59 130 246);
     border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(12, 88%, 59% / 1);
+    background: rgb(4, 27, 63);
 }
 
 body {
@@ -25,6 +25,8 @@ body {
     background-size: 800px;
     background-position: 90% -25%;
 }
+
+
 
 #cta {
     background-image: url('../img/bg-simplify-section-desktop.svg');
