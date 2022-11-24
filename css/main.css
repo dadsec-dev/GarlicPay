@@ -928,12 +928,12 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: hsl(12, 88%, 59%);
+    background: rgb(59 130 246);
     border-radius: 100vw;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: hsl(12, 88%, 59% / 1);
+    background: rgb(4, 27, 63);
   }
 
   body {
