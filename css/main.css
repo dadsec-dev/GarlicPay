@@ -886,10 +886,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-::-webkit-scrollbar {
-  width: 0.3em;
-}
-
 ::-webkit-scrollbar-track {
   background: rgb(255, 248, 234);
 }
